@@ -97,9 +97,14 @@ module.exports = exports = (argv) ->
 
       # do deep copy, needed for database configuration for instance
       copy = (map) ->
-        clone  = {}
+        return map unless map? and typeof map == "object"
+
+        if Array.isArray(map)
+          return (copy(item) for item in map)
+
+        clone = {}
         for key, value of map
-          clone[key] = if typeof value == "object" then copy(value) else value
+          clone[key] = if value? and typeof value == "object" then copy(value) else value
         clone
 
       newargv = copy argv
