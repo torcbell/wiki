@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1152" viewBox="0 0 1536 1152" role="img" aria-label="Grid of art-related domains">
+  <defs>
+    <style>
+      .cell { fill: #ffffff; stroke: #d9d9d9; stroke-width: 2; }
+      .label { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 42px; fill: #1a1a1a; text-anchor: middle; dominant-baseline: middle; }
+      .tld { font-size: 28px; fill: #555555; }
+    </style>
+  </defs>
+  <rect width="1536" height="1152" fill="#ffffff" />
+
+  <g>
+    <rect class="cell" x="0" y="0" width="384" height="230" />
+    <rect class="cell" x="384" y="0" width="384" height="230" />
+    <rect class="cell" x="768" y="0" width="384" height="230" />
+    <rect class="cell" x="1152" y="0" width="384" height="230" />
+
+    <rect class="cell" x="0" y="230" width="384" height="230" />
+    <rect class="cell" x="384" y="230" width="384" height="230" />
+    <rect class="cell" x="768" y="230" width="384" height="230" />
+    <rect class="cell" x="1152" y="230" width="384" height="230" />
+
+    <rect class="cell" x="0" y="460" width="384" height="230" />
+    <rect class="cell" x="384" y="460" width="384" height="230" />
+    <rect class="cell" x="768" y="460" width="384" height="230" />
+    <rect class="cell" x="1152" y="460" width="384" height="230" />
+
+    <rect class="cell" x="0" y="690" width="384" height="230" />
+    <rect class="cell" x="384" y="690" width="384" height="230" />
+    <rect class="cell" x="768" y="690" width="384" height="230" />
+    <rect class="cell" x="1152" y="690" width="384" height="230" />
+
+    <rect class="cell" x="0" y="920" width="384" height="232" />
+    <rect class="cell" x="384" y="920" width="384" height="232" />
+    <rect class="cell" x="768" y="920" width="384" height="232" />
+    <rect class="cell" x="1152" y="920" width="384" height="232" />
+  </g>
+
+  <g>
+    <text class="label" x="192" y="110">1966-1972<tspan class="tld" dy="48" x="192">.cat</tspan></text>
+    <text class="label" x="576" y="110">2x2x3<tspan class="tld" dy="48" x="576">.locker</tspan></text>
+    <text class="label" x="960" y="110">adg<tspan class="tld" dy="48" x="960">.cat</tspan></text>
+    <text class="label" x="1344" y="110">asrl<tspan class="tld" dy="48" x="1344">.cat</tspan></text>
+
+    <text class="label" x="192" y="340">brucennial<tspan class="tld" dy="48" x="192">.cat</tspan></text>
+    <text class="label" x="576" y="340">cc<tspan class="tld" dy="48" x="576">.cat</tspan></text>
+    <text class="label" x="960" y="340">by-sa<tspan class="tld" dy="48" x="960">.cc</tspan></text>
+    <text class="label" x="1344" y="340">duchamp<tspan class="tld" dy="48" x="1344">.cat</tspan></text>
+
+    <text class="label" x="192" y="570">exhibition<tspan class="tld" dy="48" x="192">.cat</tspan></text>
+    <text class="label" x="576" y="570">grok<tspan class="tld" dy="48" x="576">.surf</tspan></text>
+    <text class="label" x="960" y="570">grok<tspan class="tld" dy="48" x="960">.talk</tspan></text>
+    <text class="label" x="1344" y="570">kunst<tspan class="tld" dy="48" x="1344">.wiki</tspan></text>
+
+    <text class="label" x="192" y="800">performance<tspan class="tld" dy="48" x="192">.cat</tspan></text>
+    <text class="label" x="576" y="800">readymade<tspan class="tld" dy="48" x="576">.wiki</tspan></text>
+    <text class="label" x="960" y="800">the-thing<tspan class="tld" dy="48" x="960">.wiki</tspan></text>
+    <text class="label" x="1344" y="800">tout-fait<tspan class="tld" dy="48" x="1344">.wiki</tspan></text>
+
+    <text class="label" x="192" y="1036">ubu<tspan class="tld" dy="48" x="192">.wiki</tspan></text>
+    <text class="label" x="576" y="1036">untitled<tspan class="tld" dy="48" x="576">.cat</tspan></text>
+    <text class="label" x="960" y="1036">viki<tspan class="tld" dy="48" x="960">.wiki</tspan></text>
+    <text class="label" x="1344" y="1036">wp-admin<tspan class="tld" dy="48" x="1344">.wiki</tspan></text>
+  </g>
+</svg>
