@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Art Domain Grid</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 40px 16px;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        background: #f7f7f7;
+        color: #1a1a1a;
+      }
+
+      .grid-wrap {
+        max-width: 1536px;
+        margin: 0 auto;
+      }
+
+      .grid-wrap img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 12px;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+      }
+
+      .link-list {
+        margin-top: 24px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 12px 16px;
+        padding: 0;
+        list-style: none;
+      }
+
+      .link-list a {
+        color: #1a1a1a;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .link-list a:focus,
+      .link-list a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="grid-wrap">
+      <img
+        src="assets/links-grid.svg"
+        width="1536"
+        height="1152"
+        alt="Grid of art-related domain logos"
+        usemap="#domain-map"
+      />
+
+      <map name="domain-map">
+        <area shape="rect" coords="0,0,384,230" href="https://1966-1972.cat" alt="1966-1972.cat" />
+        <area shape="rect" coords="384,0,768,230" href="https://2x2x3.locker" alt="2x2x3.locker" />
+        <area shape="rect" coords="768,0,1152,230" href="https://adg.cat" alt="adg.cat" />
+        <area shape="rect" coords="1152,0,1536,230" href="https://asrl.cat" alt="asrl.cat" />
+
+        <area shape="rect" coords="0,230,384,460" href="https://brucennial.cat" alt="brucennial.cat" />
+        <area shape="rect" coords="384,230,768,460" href="https://cc.cat" alt="cc.cat" />
+        <area shape="rect" coords="768,230,1152,460" href="https://by-sa.cc" alt="by-sa.cc" />
+        <area shape="rect" coords="1152,230,1536,460" href="https://duchamp.cat" alt="duchamp.cat" />
+
+        <area shape="rect" coords="0,460,384,690" href="https://exhibition.cat" alt="exhibition.cat" />
+        <area shape="rect" coords="384,460,768,690" href="https://grok.surf" alt="grok.surf" />
+        <area shape="rect" coords="768,460,1152,690" href="https://grok.talk" alt="grok.talk" />
+        <area shape="rect" coords="1152,460,1536,690" href="https://kunst.wiki" alt="kunst.wiki" />
+
+        <area shape="rect" coords="0,690,384,920" href="https://performance.cat" alt="performance.cat" />
+        <area shape="rect" coords="384,690,768,920" href="https://readymade.wiki" alt="readymade.wiki" />
+        <area shape="rect" coords="768,690,1152,920" href="https://the-thing.wiki" alt="the-thing.wiki" />
+        <area shape="rect" coords="1152,690,1536,920" href="https://tout-fait.wiki" alt="tout-fait.wiki" />
+
+        <area shape="rect" coords="0,920,384,1152" href="https://ubu.wiki" alt="ubu.wiki" />
+        <area shape="rect" coords="384,920,768,1152" href="https://untitled.cat" alt="untitled.cat" />
+        <area shape="rect" coords="768,920,1152,1152" href="https://viki.wiki" alt="viki.wiki" />
+        <area shape="rect" coords="1152,920,1536,1152" href="https://wp-admin.wiki" alt="wp-admin.wiki" />
+      </map>
+
+      <ul class="link-list">
+        <li><a href="https://1966-1972.cat">1966-1972.cat</a></li>
+        <li><a href="https://2x2x3.locker">2x2x3.locker</a></li>
+        <li><a href="https://adg.cat">adg.cat</a></li>
+        <li><a href="https://asrl.cat">asrl.cat</a></li>
+        <li><a href="https://brucennial.cat">brucennial.cat</a></li>
+        <li><a href="https://cc.cat">cc.cat</a></li>
+        <li><a href="https://by-sa.cc">by-sa.cc</a></li>
+        <li><a href="https://duchamp.cat">duchamp.cat</a></li>
+        <li><a href="https://exhibition.cat">exhibition.cat</a></li>
+        <li><a href="https://grok.surf">grok.surf</a></li>
+        <li><a href="https://grok.talk">grok.talk</a></li>
+        <li><a href="https://kunst.wiki">kunst.wiki</a></li>
+        <li><a href="https://performance.cat">performance.cat</a></li>
+        <li><a href="https://readymade.wiki">readymade.wiki</a></li>
+        <li><a href="https://the-thing.wiki">the-thing.wiki</a></li>
+        <li><a href="https://tout-fait.wiki">tout-fait.wiki</a></li>
+        <li><a href="https://ubu.wiki">ubu.wiki</a></li>
+        <li><a href="https://untitled.cat">untitled.cat</a></li>
+        <li><a href="https://viki.wiki">viki.wiki</a></li>
+        <li><a href="https://wp-admin.wiki">wp-admin.wiki</a></li>
+      </ul>
+    </main>
+  </body>
+</html>
